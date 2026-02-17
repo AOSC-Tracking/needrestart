@@ -5,6 +5,6 @@
 #
 
 # Allow nagios to execute the needrestart command on debian based systems (icinga user is called "nagios")
-nagios ALL=NOPASSWD: /usr/sbin/needrestart
+nagios ALL=NOPASSWD: /usr/bin/needrestart
 # Allow nagios to execute the needrestart command on centos and family (icinga user is called "icinga")
-icinga ALL=NOPASSWD: /usr/sbin/needrestart
+icinga ALL=NOPASSWD: /usr/bin/needrestart

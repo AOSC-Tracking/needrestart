@@ -31,8 +31,8 @@ install: all
 	mkdir -p "$(DESTDIR)/usr/share/polkit-1/actions"
 	cp ex/polkit/net.fiasko-nw.needrestart.policy "$(DESTDIR)/usr/share/polkit-1/actions/"
 	
-	mkdir -p "$(DESTDIR)/usr/sbin"
-	cp needrestart "$(DESTDIR)/usr/sbin/"
+	mkdir -p "$(DESTDIR)/usr/bin"
+	cp needrestart "$(DESTDIR)/usr/bin/"
 	
 	mkdir -p "$(DESTDIR)/usr/lib/needrestart"
 	cp lib/iucode-scan-versions "$(DESTDIR)/usr/lib/needrestart/"

@@ -15,4 +15,4 @@
 #   (at your option) any later version.
 #
 
-exec sudo -n -- /usr/sbin/needrestart -p
+exec sudo -n -- /usr/bin/needrestart -p

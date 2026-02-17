@@ -5,4 +5,4 @@
 #
 
 # Allow nagios to execute the needrestart command
-nagios		ALL=NOPASSWD: /usr/sbin/needrestart -p
+nagios		ALL=NOPASSWD: /usr/bin/needrestart -p

@@ -6,4 +6,4 @@
 # directory.
 #
 
-DPkg::Post-Invoke {"test -x /usr/sbin/needrestart && /usr/sbin/needrestart || true"; };
+DPkg::Post-Invoke {"test -x /usr/bin/needrestart && /usr/bin/needrestart || true"; };
